@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.example</OriginalElement>
+  <nodes>
+    <node x="259.5" y="396.0">org.example.Class3</node>
+    <node x="40.5" y="-18.0">org.example.Interface1</node>
+    <node x="159.5" y="142.0">org.example.Interface3</node>
+    <node x="-40.5" y="676.0">org.example.Class2</node>
+    <node x="39.5" y="302.0">org.example.Interface2</node>
+    <node x="-79.5" y="411.0">org.example.Class1</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.example.Class1" target="org.example.Interface1" relationship="REALIZATION">
+      <point x="0.0" y="-69.0" />
+      <point x="11.0" y="280.0" />
+      <point x="91.0" y="280.0" />
+      <point x="91.0" y="160.0" />
+      <point x="85.75" y="160.0" />
+      <point x="-45.25" y="38.0" />
+    </edge>
+    <edge source="org.example.Class2" target="org.example.Class1" relationship="GENERALIZATION">
+      <point x="-55.75" y="-84.0" />
+      <point x="15.25" y="640.0" />
+      <point x="11.0" y="640.0" />
+      <point x="0.0" y="69.0" />
+    </edge>
+    <edge source="org.example.Class2" target="org.example.Interface2" relationship="REALIZATION">
+      <point x="55.75" y="-84.0" />
+      <point x="126.75" y="640.0" />
+      <point x="131.0" y="640.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="org.example.Class3" target="org.example.Interface3" relationship="REALIZATION">
+      <point x="0.0" y="-84.0" />
+      <point x="371.0" y="360.0" />
+      <point x="251.0" y="360.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="org.example.Interface3" target="org.example.Interface1" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-38.0" />
+      <point x="251.0" y="100.0" />
+      <point x="176.25" y="100.0" />
+      <point x="45.25" y="38.0" />
+    </edge>
+    <edge source="org.example.Interface2" target="org.example.Interface3" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-38.0" />
+      <point x="131.0" y="120.0" />
+      <point x="251.0" y="120.0" />
+      <point x="0.0" y="-38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.9682539682539683" showDependencies="false" x="287.9262295081971" y="425.0655737704918" />
+  <SelectedNodes>
+    <node>org.example.Interface2</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
